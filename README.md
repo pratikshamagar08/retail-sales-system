@@ -1,4 +1,5 @@
 **Project Structure – Retail Sales System **
+
 **Summary:**
 The Retail Sales System is a centralized web platform designed to help retail businesses monitor, manage, and optimize their overall sales performance across multiple channels.
 It provides insights into online sales, POS transactions, and marketplace orders, along with region-wise and product-wise analytics. The system supports real-time dashboards, 
