@@ -1,0 +1,565 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "name": "Cotton T-Shirt",
+      "category": "Apparel",
+      "price": 499,
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "name": "Bluetooth Speaker",
+      "category": "Electronics",
+      "price": 1499,
+      "status": "active"
+    },
+    {
+      "id": 4,
+      "name": "Laptop Bag",
+      "category": "Accessories",
+      "price": 999,
+      "status": "active"
+    },
+    {
+      "id": 5,
+      "name": "Running Shoes",
+      "category": "Footwear",
+      "price": 2499,
+      "status": "active"
+    },
+    {
+      "id": 6,
+      "name": "Smart Watch",
+      "category": "Electronics",
+      "price": 2999,
+      "status": "active"
+    },
+    {
+      "id": 7,
+      "name": "Water Bottle",
+      "category": "Kitchen",
+      "price": 299,
+      "status": "active"
+    },
+    {
+      "id": 8,
+      "name": "LED Table Lamp",
+      "category": "Home Decor",
+      "price": 799,
+      "status": "active"
+    },
+    {
+      "id": 9,
+      "name": "Perfume - Classic",
+      "category": "Personal Care",
+      "price": 699,
+      "status": "active"
+    },
+    {
+      "id": 10,
+      "name": "Yoga Mat",
+      "category": "Fitness",
+      "price": 899,
+      "status": "active"
+    },
+    {
+      "id": 11,
+      "name": "Denim Jeans",
+      "category": "Apparel",
+      "price": 1299,
+      "status": "active"
+    },
+    {
+      "id": 12,
+      "name": "Portable Charger 10000mAh",
+      "category": "Electronics",
+      "price": 1199,
+      "status": "active"
+    },
+    {
+      "id": 13,
+      "name": "Scented Candles Set",
+      "category": "Home Decor",
+      "price": 499,
+      "status": "active"
+    },
+    {
+      "id": 14,
+      "name": "Sports Cap",
+      "category": "Accessories",
+      "price": 299,
+      "status": "active"
+    },
+    {
+      "id": 15,
+      "name": "Wireless Earbuds",
+      "category": "Electronics",
+      "price": 1999,
+      "status": "active"
+    },
+    {
+      "id": 16,
+      "name": "Notebook Pack of 3",
+      "category": "Stationery",
+      "price": 249,
+      "status": "active"
+    },
+    {
+      "id": 17,
+      "name": "Office Chair",
+      "category": "Furniture",
+      "price": 4999,
+      "status": "active"
+    },
+    {
+      "id": 18,
+      "name": "Wall Clock",
+      "category": "Home Decor",
+      "price": 599,
+      "status": "active"
+    },
+    {
+      "id": 19,
+      "name": "Coffee Mug",
+      "category": "Kitchen",
+      "price": 199,
+      "status": "active"
+    },
+    {
+      "id": 20,
+      "name": "Backpack",
+      "category": "Accessories",
+      "price": 899,
+      "status": "active"
+    },
+    {
+      "name": "test",
+      "category": "Kitchen",
+      "price": 1111,
+      "status": "active",
+      "id": 21
+    },
+    {
+      "name": "test11",
+      "category": "Kitchen",
+      "price": 1000,
+      "status": "active",
+      "id": 22
+    }
+  ],
+  "stores": [
+    {
+      "id": 1,
+      "name": "Mumbai Store",
+      "region": "West",
+      "channel": "POS"
+    },
+    {
+      "id": 2,
+      "name": "Delhi Store",
+      "region": "North",
+      "channel": "POS"
+    },
+    {
+      "id": 3,
+      "name": "Bangalore Store",
+      "region": "South",
+      "channel": "POS"
+    },
+    {
+      "id": 4,
+      "name": "Kolkata Store",
+      "region": "East",
+      "channel": "POS"
+    },
+    {
+      "id": 5,
+      "name": "Online Website",
+      "region": "All",
+      "channel": "Online"
+    },
+    {
+      "id": 6,
+      "name": "Amazon Marketplace",
+      "region": "All",
+      "channel": "Marketplace"
+    },
+    {
+      "id": 7,
+      "name": "Flipkart Marketplace",
+      "region": "All",
+      "channel": "Marketplace"
+    },
+    {
+      "id": 8,
+      "name": "Pune Store",
+      "region": "West",
+      "channel": "POS"
+    },
+    {
+      "id": 9,
+      "name": "Chennai Store",
+      "region": "South",
+      "channel": "POS"
+    },
+    {
+      "id": 10,
+      "name": "Hyderabad Store",
+      "region": "South",
+      "channel": "POS"
+    },
+    {
+      "id": 11,
+      "name": "Instagram Store",
+      "region": "All",
+      "channel": "Social"
+    },
+    {
+      "id": 12,
+      "name": "Meesho Marketplace",
+      "region": "All",
+      "channel": "Marketplace"
+    }
+  ],
+  "sales": [
+    {
+      "id": 2,
+      "productId": 2,
+      "storeId": 5,
+      "channel": "Online",
+      "region": "All",
+      "quantity": 2,
+      "amount": 998,
+      "date": "2025-12-02",
+      "customerSegment": "New"
+    },
+    {
+      "id": 3,
+      "productId": 3,
+      "storeId": 2,
+      "channel": "POS",
+      "region": "North",
+      "quantity": 1,
+      "amount": 1499,
+      "date": "2025-11-25",
+      "customerSegment": "Regular"
+    },
+    {
+      "id": 4,
+      "productId": 4,
+      "storeId": 6,
+      "channel": "Marketplace",
+      "region": "All",
+      "quantity": 5,
+      "amount": 4995,
+      "date": "2025-12-03",
+      "customerSegment": "Online Buyer"
+    },
+    {
+      "id": 5,
+      "productId": 5,
+      "storeId": 3,
+      "channel": "POS",
+      "region": "South",
+      "quantity": 2,
+      "amount": 4998,
+      "date": "2025-11-20",
+      "customerSegment": "Regular"
+    },
+    {
+      "id": 6,
+      "productId": 6,
+      "storeId": 5,
+      "channel": "Online",
+      "region": "All",
+      "quantity": 1,
+      "amount": 2999,
+      "date": "2025-11-18",
+      "customerSegment": "New"
+    },
+    {
+      "id": 7,
+      "productId": 7,
+      "storeId": 4,
+      "channel": "POS",
+      "region": "East",
+      "quantity": 4,
+      "amount": 1196,
+      "date": "2025-12-03",
+      "customerSegment": "Regular"
+    },
+    {
+      "id": 8,
+      "productId": 8,
+      "storeId": 7,
+      "channel": "Marketplace",
+      "region": "All",
+      "quantity": 3,
+      "amount": 2397,
+      "date": "2025-12-03",
+      "customerSegment": "Online Buyer"
+    },
+    {
+      "id": 9,
+      "productId": 9,
+      "storeId": 11,
+      "channel": "Social",
+      "region": "All",
+      "quantity": 2,
+      "amount": 1398,
+      "date": "2025-12-04",
+      "customerSegment": "Influencer"
+    },
+    {
+      "id": 10,
+      "productId": 10,
+      "storeId": 5,
+      "channel": "Online",
+      "region": "All",
+      "quantity": 1,
+      "amount": 899,
+      "date": "2025-12-01",
+      "customerSegment": "New"
+    },
+    {
+      "id": 11,
+      "productId": 11,
+      "storeId": 8,
+      "channel": "POS",
+      "region": "West",
+      "quantity": 2,
+      "amount": 2598,
+      "date": "2025-11-27",
+      "customerSegment": "Regular"
+    },
+    {
+      "id": 12,
+      "productId": 12,
+      "storeId": 12,
+      "channel": "Marketplace",
+      "region": "All",
+      "quantity": 4,
+      "amount": 4796,
+      "date": "2025-11-29",
+      "customerSegment": "Online Buyer"
+    },
+    {
+      "id": 13,
+      "productId": 13,
+      "storeId": 5,
+      "channel": "Online",
+      "region": "All",
+      "quantity": 3,
+      "amount": 1497,
+      "date": "2025-12-02",
+      "customerSegment": "New"
+    },
+    {
+      "id": 14,
+      "productId": 14,
+      "storeId": 9,
+      "channel": "POS",
+      "region": "South",
+      "quantity": 5,
+      "amount": 1495,
+      "date": "2025-11-17",
+      "customerSegment": "Regular"
+    },
+    {
+      "id": 15,
+      "productId": 15,
+      "storeId": 2,
+      "channel": "POS",
+      "region": "North",
+      "quantity": 1,
+      "amount": 1999,
+      "date": "2025-11-24",
+      "customerSegment": "Regular"
+    },
+    {
+      "id": 16,
+      "productId": 16,
+      "storeId": 5,
+      "channel": "Online",
+      "region": "All",
+      "quantity": 6,
+      "amount": 1494,
+      "date": "2025-11-29",
+      "customerSegment": "Student"
+    },
+    {
+      "id": 17,
+      "productId": 17,
+      "storeId": 10,
+      "channel": "POS",
+      "region": "South",
+      "quantity": 1,
+      "amount": 4999,
+      "date": "2025-11-28",
+      "customerSegment": "Corporate"
+    },
+    {
+      "id": 18,
+      "productId": 18,
+      "storeId": 6,
+      "channel": "Marketplace",
+      "region": "All",
+      "quantity": 3,
+      "amount": 1797,
+      "date": "2025-11-30",
+      "customerSegment": "Online Buyer"
+    },
+    {
+      "id": 19,
+      "productId": 19,
+      "storeId": 11,
+      "channel": "Social",
+      "region": "All",
+      "quantity": 2,
+      "amount": 398,
+      "date": "2025-12-04",
+      "customerSegment": "Gift Buyer"
+    },
+    {
+      "id": 20,
+      "productId": 20,
+      "storeId": 7,
+      "channel": "Marketplace",
+      "region": "All",
+      "quantity": 1,
+      "amount": 899,
+      "date": "2025-12-03",
+      "customerSegment": "Online Buyer"
+    },
+    {
+      "id": 22,
+      "productId": 3,
+      "storeId": 7,
+      "channel": "Marketplace",
+      "region": "All",
+      "quantity": 1,
+      "amount": 1499,
+      "date": "2025-11-21",
+      "customerSegment": "Online Buyer"
+    },
+    {
+      "id": 23,
+      "productId": 6,
+      "storeId": 1,
+      "channel": "POS",
+      "region": "West",
+      "quantity": 1,
+      "amount": 2999,
+      "date": "2025-12-03",
+      "customerSegment": "Regular"
+    },
+    {
+      "id": 24,
+      "productId": 10,
+      "storeId": 4,
+      "channel": "POS",
+      "region": "East",
+      "quantity": 2,
+      "amount": 1798,
+      "date": "2025-11-19",
+      "customerSegment": "Gym Member"
+    },
+    {
+      "id": 25,
+      "productId": 12,
+      "storeId": 5,
+      "channel": "Online",
+      "region": "All",
+      "quantity": 3,
+      "amount": 3597,
+      "date": "2025-12-03",
+      "customerSegment": "New"
+    },
+    {
+      "id": 26,
+      "productId": 15,
+      "storeId": 11,
+      "channel": "Social",
+      "region": "All",
+      "quantity": 1,
+      "amount": 1999,
+      "date": "2025-12-05",
+      "customerSegment": "Influencer"
+    },
+    {
+      "id": 27,
+      "productId": 9,
+      "storeId": 6,
+      "channel": "Marketplace",
+      "region": "All",
+      "quantity": 2,
+      "amount": 1398,
+      "date": "2025-11-22",
+      "customerSegment": "Online Buyer"
+    },
+    {
+      "id": 28,
+      "productId": 18,
+      "storeId": 3,
+      "channel": "POS",
+      "region": "South",
+      "quantity": 4,
+      "amount": 2396,
+      "date": "2025-11-30",
+      "customerSegment": "Regular"
+    },
+    {
+      "id": 29,
+      "productId": 7,
+      "storeId": 8,
+      "channel": "POS",
+      "region": "West",
+      "quantity": 10,
+      "amount": 2990,
+      "date": "2025-12-05",
+      "customerSegment": "Bulk Buyer"
+    },
+    {
+      "id": 30,
+      "productId": 13,
+      "storeId": 5,
+      "channel": "Online",
+      "region": "All",
+      "quantity": 2,
+      "amount": 998,
+      "date": "2025-12-06",
+      "customerSegment": "Gift Buyer"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "password": "admin123",
+      "role": "Admin"
+    },
+    {
+      "id": 2,
+      "name": "Sales Manager",
+      "email": "manager@example.com",
+      "password": "manager123",
+      "role": "Sales Manager"
+    },
+    {
+      "id": 3,
+      "name": "Analyst User",
+      "email": "analyst@example.com",
+      "password": "analyst123",
+      "role": "Analyst"
+    },
+    {
+      "id": 4,
+      "name": "Viewer User",
+      "email": "viewer@example.com",
+      "password": "viewer123",
+      "role": "Viewer"
+    }
+  ]
+}
