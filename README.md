@@ -60,6 +60,7 @@ o	State Management (Redux Toolkit) → global data (auth, products, stores, sale
 o	UI Pages → Dashboard, Sales, Products, Stores
 o	Layout → Sidebar + Topbar + main content
 o	API Layer → axiosClient talking to json-server
+
 **Data flow example (Products):**
 
 UI → dispatch(action) → thunk calls axios → json-server → returns data → thunk → reducer updates Redux store → UI re-renders.
